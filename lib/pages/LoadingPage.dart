@@ -14,10 +14,6 @@ class LoadingPageState extends State<LoadingPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Container(
-
-        )
-    );
+    return Center(child: CircularProgressIndicator());
   }
 }
